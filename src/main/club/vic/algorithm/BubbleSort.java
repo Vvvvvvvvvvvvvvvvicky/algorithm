@@ -1,6 +1,20 @@
 package club.vic.algorithm;
 
+/**
+ * @className BubbleSort
+ * @desc 冒泡排序
+ * @author Vic
+ * @version 1.0
+ * @date 2020/3/8 7:42 下午
+ **/
 public class BubbleSort {
+    /*
+     * description  单向冒泡
+     * date         2020/3/8 7:43 下午
+     * @author      vic
+     * @param       arrays
+     * @return      AnyType[]
+     */
     public static <AnyType extends Comparable<? super AnyType>>  AnyType[] bubbleSort(AnyType[] arrays){
         AnyType temp ;
         boolean mark;
@@ -19,6 +33,13 @@ public class BubbleSort {
         return arrays;
     }
 
+    /*
+     * description  双向冒泡
+     * date         2020/3/8 7:43 下午
+     * @author      vic
+     * @param       arrays
+     * @return      AnyType[]
+     */
     public static <AnyType extends Comparable<? super AnyType>> AnyType[] bubbleSort_twoWays(AnyType[] arrays){
         boolean mark;
         int low = 0;

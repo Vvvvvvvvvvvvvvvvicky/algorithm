@@ -7,7 +7,6 @@ public class BubbleSortTest {
 
 
     @Test
-    @Ignore
     public void test(){
         Integer[] arrays = {12,90,4,30,78,123,10,25};
         arrays = BubbleSort.bubbleSort(arrays);
