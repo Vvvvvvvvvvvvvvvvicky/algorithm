@@ -2,6 +2,13 @@ package club.vic.algorithm;
 
 import org.junit.Test;
 
+/**
+ * @className InsertSortTest
+ * @desc 插入排序测试
+ * @author Vic
+ * @version 1.0
+ * @date 2020/3/9 10:08 下午
+ **/
 public class InsertSortTest {
 
 
